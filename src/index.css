@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* user list card style */
+.userCard {
+  width: 98%;
+  margin: 10px;
+}
+
+/* user Detail card style */
+.userCardDetail {
+  width: 98%;
+  margin: 10px;
+  border: none !important;
+}
+
+/* blog card style  */
+.blogCard {
+  width: 22rem;
+  margin: 10px;
+}
+
+.card_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding: 10px;
+}
+
+.card_desc {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.card_title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+/* post Card Header Style */
+.postCardHeader {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 67px 10px 10px;
+}
+
+.addPostBtn {
+  margin-left: 10px;
+}
+
+/* album Card style */
+.albumCard {
+  border: none !important;
+  border-bottom: 1px solid #cdc9c9 !important;
+  border-radius: 0 !important;
+}
+
+.albumCardBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Todos Style */
+.todoTitle {
+  display: flex;
+}
+
+#default-checkbox {
+  margin-right: 10px !important;
+}
+
+/* Blog Detail */
+.blog_detail {
+  width: 100%;
+  margin: 0px;
+  border: none !important;
+}
+
+.blogDetailContainer {
+  margin: 0px 65px;
+}
+
+.blog_detail::-webkit-scrollbar {
+  display: none;
+}
+
+.userCarduserDetail {
+  border: none !important;
+}
+
+/* pagination Style */
+.paginationMain {
+  display: flex;
+  padding: 10px;
+  margin: 0;
+}
+
+.paginationMainHide {
+  display: none;
+}
+
+.paginationMain li {
+  height: 33px;
+  width: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+  color: #4b4b55;
+  margin: 0px 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.paginationMain li:last-child {
+  display: none;
+}
+.paginationMain li:first-child {
+  display: none;
+}
+
+.activePageClass {
+  background-color: #0d6efd;
+  pointer-events: none;
+}
+
+.activePageClass a {
+  color: #fff !important;
+}
+
+.paginationMain li a {
+  text-decoration: none !important;
+  color: black;
+}
+
+/* link style */
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: #7b7b7e;
+}
+
+/* comment  style*/
+.commentHeading {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid;
+  padding-top: 10px;
+}
+
+.commentCard {
+  width: 100%;
+  border: none !important;
+}
+
+/* Spinner style  */
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+/* Error Msg Style */
+.errorMsg {
+  color: red;
+  font-size: 12px;
+}
