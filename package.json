@@ -1,8 +1,8 @@
 {
-  "name": "my-blog",
+  "name": "BlogWeb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Himanshu-Dhyani.github.io/my-blog",
+  "homepage": "https://Himanshu-Dhyani.github.io/BlogWeb",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.5",

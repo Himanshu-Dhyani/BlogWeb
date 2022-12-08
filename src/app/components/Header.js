@@ -11,8 +11,8 @@ function Header() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav><Link to="/my-blog" className="link">Users</Link> </Nav>
-                        {/* <Nav><Link to="/my-blog" className="link">Home</Link> </Nav> */}
+                        <Nav><Link to="/BlogWeb" className="link">Users</Link> </Nav>
+                        {/* <Nav><Link to="/BlogWeb" className="link">Home</Link> </Nav> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

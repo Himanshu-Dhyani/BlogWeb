@@ -14,7 +14,7 @@ function App() {
 
         <Routes>
           <Route
-            exact path='/my-blog'
+            exact path='/BlogWeb'
             element={
               <UserList />
             }
