@@ -25,7 +25,7 @@ export default function BlogDetail() {
                 (<div className="blogDetailContainer">
                     {activeList.map((activeList) => (
                         <Card className='blog_detail'>
-                            <Card.Img variant="top" src="https://images.indianexpress.com/2022/06/Enchanted-lake-perseverance-rover-Mars.jpg" />
+                            {/* <Card.Img variant="top" src="https://images.indianexpress.com/2022/06/Enchanted-lake-perseverance-rover-Mars.jpg" /> */}
                             <Card.Body>
                                 <Card.Title>{activeList.title}</Card.Title>
                                 <Card.Text>{activeList.body}</Card.Text>
