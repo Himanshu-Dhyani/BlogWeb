@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Card from 'react-bootstrap/Card';
-import Comment from '../components/Comment';
+// import Comment from '../components/Comment';
 import Loader from '../components/Loader';
 
 export default function BlogDetail() {
@@ -32,7 +32,7 @@ export default function BlogDetail() {
                             </Card.Body>
                         </Card>
                     ))}
-                    <Comment />
+                    {/* <Comment /> */}
                 </div>)}
         </>
 

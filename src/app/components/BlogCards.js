@@ -17,7 +17,7 @@ function BlogCards() {
     const [errorMsgForDesc, setErrorMsgForDesc] = useState("")
     const [searchInput, setSearchInput] = useState("");
     const [activePage, setActivePage] = useState(1)
-    const [postsPerPage] = useState(5);
+    const [postsPerPage] = useState(6);
 
     const handleClose = () => {
         setShow(false)
@@ -88,8 +88,8 @@ function BlogCards() {
             else {
                 return res.json()
             }
-        }).then(async (json) => {
-            await setActiveList((activeList) => [json, ...activeList])
+        }).then((json) => {
+            return setActiveList((activeList) => [json, ...activeList])
         }).catch((err) => {
             console.log("Err in Add Post", err)
         })
@@ -163,7 +163,6 @@ function BlogCards() {
                     handleSearchClick={handleSearchClick}
                     handleKeyDown={handleKeyDown}
                 />
-
                 <Button onClick={handleShow} className="addPostBtn">+ Add Post</Button>
             </div>
             <div className="card_container">
