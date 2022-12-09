@@ -133,8 +133,11 @@ function BlogCards() {
     });
 
     const handleSearchClick = () => {
-        if (searchInput !== "" && !/^\s/.test(searchInput)) {
+        if (searchInput.length !== 0 && !/^\s/.test(searchInput)) {
             setActiveList(filtered)
+        }
+        else if (searchInput.length === 0) {
+            getPost()
         }
         setActivePage(1)
     }
